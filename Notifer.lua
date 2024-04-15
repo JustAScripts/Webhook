@@ -4,8 +4,7 @@ local folderName = "JustAScript"
 local folder = Instance.new("Folder")
 folder.Name = folderName
 
-if Ikura:FindFirstChild(folderName) then
-    print("Folder already exists")
+if Ikura:FindFirstChild(folderName) then    
 else
     folder.Parent = Ikura
 
