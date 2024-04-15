@@ -23,4 +23,7 @@ getgenv().FooterUrl = ""
 
 --[[ Webhook URL ]]--
 
-getgenv().Webhook = ""```
+getgenv().Webhook = ""
+```
+
+**Fill Each Empty String With Your Desired Information**
