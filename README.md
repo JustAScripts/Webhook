@@ -3,7 +3,7 @@
 **🔴 Red, Embed**
 **🟡 Yellow Script**
 
-** i Made Mistake About getgenv().FieldText It Should Be getgenv().FieldTitle**
+**i Made Mistake About getgenv().FieldText It Should Be getgenv().FieldTitle**
 ![Picsart_24-04-15_15-25-46-338](https://github.com/JustAScripts/Webhook/assets/149206706/a754fa28-1b42-49da-a771-ff8147bb8450)
 
 # Fill This With Your Desire Info
