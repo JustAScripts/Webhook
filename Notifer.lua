@@ -4,7 +4,7 @@ local folderName = "JustAScript"
 local folder = Instance.new("Folder")
 folder.Name = folderName
 
-if Ikura:FindFirstChild(folderName) then    
+if Ikura:FindFirstChild(folderName) then   
 else
     folder.Parent = Ikura
     local request= http_request or request or (syn and syn.request) or (fluxus and fluxus.request) or (http and http.request)
@@ -60,5 +60,5 @@ else
                 }
             }
         })
-    })
+    })    
 end
