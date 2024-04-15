@@ -9,7 +9,7 @@
 ```lua
 getgenv().Title = "Title"
 getgenv().ThumbnailUrl = ""
-getgenv().Color = 0x000000 --[[ Black Changeable Color, Hexadecimal]]--
+getgenv().Color = 0x000000
 
 --[[ Script Field ]]--
 getgenv().FieldTitle = ""
@@ -24,5 +24,3 @@ getgenv().FooterUrl = ""
 --[[ Webhook URL ]]--
 
 getgenv().Webhook = ""```
-
-**Fill Each Empty String With Your Information Want**
