@@ -1,3 +1,22 @@
+# Script 
+```lua
+getgenv().Title = ""
+getgenv().ThumbnailUrl = ""
+getgenv().Color = 0x000000 -- Black
+
+getgenv().FieldTitle = ""
+getgenv().FieldText = ""
+
+getgenv().FooterText = ""
+getgenv().FooterUrl = ""
+
+getgenv().Webhook = ""
+
+coroutine.wrap(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAScripts/Webhook/main/Notifer.lua"))()
+end)()
+```
+**Read Guidelines Below To Make It Work If U having Some Syntax Error About The Code DM Ikura0 Discord**
+
 # Guidelines 
 **🔵 Blue, URL**
 **🔴 Red, Embed**
