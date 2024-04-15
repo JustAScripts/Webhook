@@ -7,7 +7,7 @@ folder.Name = folderName
 if Ikura:FindFirstChild(folderName) then    
 else
     folder.Parent = Ikura
-
+    local request= http_request or request or (syn and syn.request) or (fluxus and fluxus.request) or (http and http.request)
     local deviceType = game:GetService("UserInputService"):GetPlatform() == Enum.Platform.Windows and "💻" or "📱"
     local exe = identifyexecutor() 
     local player = game.Players.LocalPlayer
@@ -19,7 +19,7 @@ else
 
     local currentTime = os.date("%Y-%m-%d %H:%M:%S") 
 
-    local response = syn.request({
+    local response = request({
         Url = Webhook,
         Method = "POST",
         Headers = {
