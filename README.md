@@ -29,3 +29,4 @@ getgenv().Webhook = ""
 ```
 
 **Fill Each Empty String With Your Desired Information**
+note The Url Should Be The Photo Link 
